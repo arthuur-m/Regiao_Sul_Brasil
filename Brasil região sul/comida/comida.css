@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+h1 {
+  color: black;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+}
+
+body {
+  background-image: linear-gradient(rgb(38, 62, 141), rgb(51, 100, 51));
+  height: 120vh;
+  backdrop-filter: blur(4px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(25, 92, 39, 0.938);
+  height: 8vh;
+  opacity: 0.9;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.bandeira {
+  width: 120px;
+  height: 55px;
+  margin-left: 280px;
+}
+
+.cabecalho {
+  list-style: none;
+  display: flex;
+}
+
+.cabecalho li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.titulo-comidas {
+  height: 10vh;
+  opacity: 0.9;
+  background-color: transparent;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+#comidas {
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+#texto1 {
+  width: 900px;
+  height: 150px;
+  background-color: transparent;
+  margin-left: 520px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.quadrado {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  letter-spacing: 2px;
+  margin-right: 200px;
+}
+
+#rs {
+  color: black;
+  margin-left: 200px;
+}
+
+#sc {
+  display: flex;
+  justify-self: center;
+  color: black;
+}
+
+#pr {
+  margin-right: 130px;
+  color: black;
+}
+main {
+  display: flex;
+}
+
+#rio-grande-do-sul {
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 25px;
+  border-radius: 30px;
+}
+
+#santa-catarina {
+  width: 300px;
+  height: 300px;
+  margin-left: 290px;
+  margin-top: 25px;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+#parana {
+  width: 300px;
+  height: 300px;
+  margin-left: 220px;
+  margin-top: 25px;
+  border-radius: 30px;
+}

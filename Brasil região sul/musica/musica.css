@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+}
+
+body {
+  background-image: linear-gradient(rgb(38, 62, 141), rgb(51, 100, 51));
+
+  height: 120vh;
+  backdrop-filter: blur(4px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(25, 92, 39, 0.938);
+  height: 8vh;
+  opacity: 0.9;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 50px;
+}
+
+.bandeira {
+  width: 120px;
+  height: 55px;
+  margin-left: 280px;
+}
+
+.cabecalho {
+  list-style: none;
+  display: flex;
+}
+
+.cabecalho li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.titulos {
+  height: 10vh;
+  opacity: 0.9;
+  background-color: transparent;
+  margin-top: 150px;
+  justify-content: space-evenly;
+  letter-spacing: 2px;
+}
+
+#musicas {
+  margin-left: 35px;
+  font-size: 30px;
+  color: black;
+}
+
+#artistas {
+  font-size: 30px;
+  color: black;
+}
+main {
+  display: flex;
+}
+.tabela-musica {
+  margin-top: 70px;
+  margin-left: 290px;
+  color: #fff;
+}
+
+.tabela-um {
+  font-size: 25px;
+}
+
+.tabela-artista {
+  margin-top: 70px;
+  margin-left: 540px;
+  color: #fff;
+}
+
+.tabela-dois {
+  font-size: 25px;
+}
